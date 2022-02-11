@@ -18,22 +18,32 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .padding()
             Spacer()
-            Text("Credits:X")
+            Text("Credits : \(credits)")
             Spacer()
             HStack(){
-                Image("apple").resizable()
+                Image("fruit\(slot1)").resizable()
                     .aspectRatio(contentMode: .fit)
                     
-                Image("cherry").resizable()
+                Image("fruit\(slot2)").resizable()
                     .aspectRatio(contentMode: .fit)
                     
-                Image("star").resizable()
+                Image("fruit\(slot3)").resizable()
                     .aspectRatio(contentMode: .fit)
                     
             
             }
             Spacer()
-            Button(action: {}, label: {
+            Button(action: {
+                slot1=Int.random(in: 1...3)
+                slot2=Int.random(in: 1...3)
+                slot3=Int.random(in: 1...3)
+                if(slot1==slot2 && slot2==slot3){
+                    credits += 15
+                }
+                else {
+                    credits -= 15
+                }
+            }, label: {
                 Text("Spin")
                     .fontWeight(.medium)
                     .foregroundColor(Color.white)
@@ -52,6 +62,9 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView()
+        }
     }
 }
