@@ -14,6 +14,7 @@
 		01EECAE927B6F104004E0B26 /* Spinner_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EECAE827B6F104004E0B26 /* Spinner_ChallengeTests.swift */; };
 		01EECAF327B6F104004E0B26 /* Spinner_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EECAF227B6F104004E0B26 /* Spinner_ChallengeUITests.swift */; };
 		01EECAF527B6F104004E0B26 /* Spinner_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EECAF427B6F104004E0B26 /* Spinner_ChallengeUITestsLaunchTests.swift */; };
+		01EECB0B27B6FC2C004E0B26 /* Screenshots in Resources */ = {isa = PBXBuildFile; fileRef = 01EECB0A27B6FC2C004E0B26 /* Screenshots */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,9 @@
 		01EECAEE27B6F104004E0B26 /* Spinner ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spinner ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01EECAF227B6F104004E0B26 /* Spinner_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner_ChallengeUITests.swift; sourceTree = "<group>"; };
 		01EECAF427B6F104004E0B26 /* Spinner_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01EECB0827B6FC1F004E0B26 /* Apple iPhone 11 Pro Max Screenshot 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple iPhone 11 Pro Max Screenshot 0.png"; sourceTree = "<group>"; };
+		01EECB0927B6FC1F004E0B26 /* Apple iPhone 11 Pro Max Screenshot 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple iPhone 11 Pro Max Screenshot 1.png"; sourceTree = "<group>"; };
+		01EECB0A27B6FC2C004E0B26 /* Screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Screenshots; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		01EECACB27B6F103004E0B26 = {
 			isa = PBXGroup;
 			children = (
+				01EECB0727B6FC16004E0B26 /* Screenshots */,
 				01EECAD627B6F104004E0B26 /* Spinner Challenge */,
 				01EECAE727B6F104004E0B26 /* Spinner ChallengeTests */,
 				01EECAF127B6F104004E0B26 /* Spinner ChallengeUITests */,
@@ -125,6 +130,16 @@
 				01EECAF427B6F104004E0B26 /* Spinner_ChallengeUITestsLaunchTests.swift */,
 			);
 			path = "Spinner ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		01EECB0727B6FC16004E0B26 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				01EECB0827B6FC1F004E0B26 /* Apple iPhone 11 Pro Max Screenshot 0.png */,
+				01EECB0927B6FC1F004E0B26 /* Apple iPhone 11 Pro Max Screenshot 1.png */,
+				01EECB0A27B6FC2C004E0B26 /* Screenshots */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01EECADF27B6F104004E0B26 /* Preview Assets.xcassets in Resources */,
+				01EECB0B27B6FC2C004E0B26 /* Screenshots in Resources */,
 				01EECADC27B6F104004E0B26 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
